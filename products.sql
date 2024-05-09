@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: May 08, 2024 at 07:24 PM
+-- Generation Time: May 09, 2024 at 11:24 AM
 -- Server version: 8.0.30
 -- PHP Version: 8.3.4
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `stock`
+-- Database: `devshopbd-stock`
 --
 
 -- --------------------------------------------------------
@@ -44,17 +44,29 @@ CREATE TABLE `products` (
 --
 
 INSERT INTO `products` (`id`, `all_products`, `color`, `S`, `M`, `L`, `XL`, `XXL`, `3XL`) VALUES
-(26, 'Mountain T-shirt', 'Black', 1, 2, 4, 12, 10, 3),
-(27, 'Nike T-shirt ', 'Gray', 4, 3, 9, 12, 3, 2),
-(28, 'Free Palestine t-shirt', 'Black', 2, 4, 6, 2, 1, 4),
-(29, 'Bangladesh Army t-shirt ', 'Turkish Blue', 2, 5, 7, 7, 4, 2),
-(30, 'Beautiful New Zealand t-shirt', 'Black', 1, 4, 5, 6, 2, 1),
-(31, 'SpaceX t-shirt', 'Turkish Blue', 2, 5, 3, 6, 3, 5),
-(32, 'Developer t-shirt', 'Turkish Blue', 2, 5, 3, 6, 3, 4),
-(33, 'Samsung t-shirt', 'Gray', 5, 7, 3, 8, 3, 2),
-(34, 'Apple t-shirt', 'Black', 3, 45, 56, 34, 12, 3),
-(35, 'Sony t-shirt', 'Gray', 5, 12, 34, 23, 56, 12),
-(36, 'Solid t-shirt', 'Gray', 6, 3, 6, 7, 8, 2);
+(37, 'JS Developer', 'Black', 0, 4, 1, 5, 0, 3),
+(38, 'Shirt.JS (JavaScript)', 'Black', 0, 1, 12, 9, 1, 0),
+(39, 'React Developer', 'Black', 0, 0, 17, 0, 0, 4),
+(40, 'React (Logo)', 'Black', 0, 0, 0, 1, 2, 0),
+(41, 'Shirt.jsx (React)', 'Black', 0, 1, 12, 16, 3, 0),
+(42, 'Code ', 'Black', 1, 7, 11, 8, 0, 0),
+(43, 'Code', 'Gray', 0, 17, 11, 4, 0, 0),
+(44, 'Node JS', 'Black', 0, 4, 13, 10, 0, 0),
+(45, 'Stack Overflow ', 'Black', 2, 14, 4, 7, 0, 1),
+(46, 'Python', 'Black', 0, 9, 12, 4, 3, 5),
+(47, 'Stack Overflow', 'Turkish Blue', 6, 6, 0, 0, 0, 0),
+(48, 'GitHub ', 'Black', 0, 9, 3, 12, 0, 1),
+(49, 'GitHub', 'Turkish Blue', 6, 3, 0, 0, 0, 0),
+(50, 'SpaceX', 'Black', 1, 15, 8, 8, 1, 1),
+(51, 'SpaceX', 'Gray', 9, 36, 33, 22, 5, 3),
+(52, 'SpaceX', 'Turkish Blue', 1, 0, 0, 0, 0, 0),
+(53, 'Mountain ', 'Gray', 5, 13, 7, 12, 5, 1),
+(54, 'LWS (Learn With Sumit)', '', 3, 0, 1, 5, 8, 0),
+(55, 'LWS (Learn With Sumit)', 'Navy Blue', 2, 2, 0, 1, 0, 0),
+(56, 'WordPress (Logo)', 'Black', 0, 0, 0, 2, 0, 0),
+(57, 'Solid ', 'Black', 3, 2, 2, 0, 0, 0),
+(58, 'Solid', 'Gray', 0, 9, 9, 1, 0, 0),
+(59, 'Solid', 'Turkish Blue', 0, 6, 3, 5, 0, 0);
 
 --
 -- Indexes for dumped tables
@@ -74,7 +86,7 @@ ALTER TABLE `products`
 -- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=37;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=60;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

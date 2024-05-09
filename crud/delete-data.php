@@ -3,7 +3,7 @@
 // get delete object data from index.php 
 $delete_id = $_POST["id"]; 
 
-include "./database-conn.php";
+include "../database-conn.php";
 
 $delete_sql = "DELETE FROM products WHERE id = {$delete_id}";
 

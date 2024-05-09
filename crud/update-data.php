@@ -10,7 +10,7 @@ $sizexl = $_POST['sizexl'];
 $sizexxl = $_POST['sizexxl'];
 $size3xl = $_POST['size3xl'];
 
-include "./database-conn.php";
+include "../database-conn.php";
 
 $update_sql = "UPDATE products SET 
                         all_products = '{$pname}',

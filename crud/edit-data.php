@@ -2,7 +2,7 @@
 
 $edit_id = $_POST['id'];
 
-include "./database-conn.php";
+include "../database-conn.php";
 
 $edit_sql = "SELECT * FROM products WHERE id = {$edit_id}";
 $result = mysqli_query($conn, $edit_sql) or die("SQL query failed");
